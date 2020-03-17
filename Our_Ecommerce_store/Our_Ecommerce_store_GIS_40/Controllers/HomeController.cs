@@ -18,23 +18,23 @@ namespace Our_Ecommerce_store_GIS_40.Controllers
             {
             ////creating roles //////
 
-           // //IdentityRole admin = new IdentityRole("admin");
-           // //IdentityRole owner = new IdentityRole("owner");
-           // //IdentityRole client = new IdentityRole("client");
-           // ////////creating roles roles to database by creating object of rolemanger which has function called createrole
+          // IdentityRole admin = new IdentityRole("admin");
+          // IdentityRole owner = new IdentityRole("owner");
+          // IdentityRole client = new IdentityRole("client");
+          // // ////////creating roles roles to database by creating object of rolemanger which has function called createrole
 
-           // //RoleManager<IdentityRole> rolemanger = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(new ApplicationDbContext()));
+          // RoleManager<IdentityRole> rolemanger = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(new ApplicationDbContext()));
 
-           // //rolemanger.Create(admin);
-           // //rolemanger.Create(owner);
-           //// rolemanger.Create(client);
+          //rolemanger.Create(admin);
+          // rolemanger.Create(owner);
+          //  rolemanger.Create(client);
 
             //assign roles by usermanger/////
 
             //UserManager<ApplicationUser> usermanger = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext()));
             //ApplicationUser admin = usermanger.FindByEmail("admin@gmail.com"); 
             //ApplicationUser owner = usermanger.FindByEmail("owner1@gmail.com");
-            //ApplicationUser client = usermanger.FindByEmail("client1@gmail.com");
+            //ApplicationUser client = usermanger.FindByEmail("client@client.com");
 
             //usermanger.AddToRole(admin.Id, "admin");
             //usermanger.AddToRole(owner.Id, "owner");
